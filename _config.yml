@@ -30,11 +30,11 @@ excerpt_separator: "\n\n"
 detach:       false
 port:         4000
 host:         127.0.0.1
-baseurl:      "yycsxz" # does not include hostname
+baseurl:      # does not include hostname
 
 # Outputting
 permalink:     date
-paginate_path: /yycsxz/page:num
+paginate_path:/page:num
 timezone:      null
 
 #站点基础配置
@@ -42,20 +42,20 @@ title: Young's
 subTitle: Just your Neighbor Young!
 description: folked from PIZn
 url: http://localhost:4000
-feed: /yycsxz/atom.xml
+feed: /atom.xml
 
 #菜单配置
 nav:
   - text: Home
-    url: /yycsxz
+    url: /index.html
     icon: icon-home
     class: home
   - text: Archives
-    url: /yycsxz/archives.html
+    url: /archives.html
     icon: icon-reorder
     class: none
   - text: About
-    url: /yycsxz/contact.html
+    url: /contact.html
     icon: icon-envelope-alt
     class: none
   - text: Lab
@@ -69,14 +69,14 @@ nav:
 
 page:
   - text: Tags
-    url: /yycsxz/archives.html
+    url: /archives.html
     last: true
   - text: Links
-    url: /yycsxz/links.html
+    url: /links.html
     last: true
   - text: About 
-    url: /yycsxz/contact.html
+    url: /contact.html
     last: false
 
 author:
-  name: yycsxz from Pzin
+  name: yycsxz
