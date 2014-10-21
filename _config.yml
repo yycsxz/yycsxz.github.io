@@ -34,7 +34,7 @@ baseurl:      "" # does not include hostname
 
 # Outputting
 permalink:     date
-paginate_path:/page:num
+paginate_path: /page:num
 timezone:      null
 
 #站点基础配置
