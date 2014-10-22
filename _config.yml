@@ -59,7 +59,7 @@ nav:
     icon: icon-envelope-alt
     class: none
   - text: Lab
-    url: http://www.zhanxin.info/contact.html
+    url: /lab.html
     icon: icon-heart
     class: none
   - text: GitHub
@@ -79,4 +79,4 @@ page:
     last: false
 
 author:
-  name: yycsxz
+  name: Young's
