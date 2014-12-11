@@ -20,7 +20,7 @@ var alldataarr = alldata.split(",");
 var num = alldataarr.length-1;
 var timer;
 function change(){   
-	document.getElementById("oknum").value = "小婊砸就是你！\n" + alldataarr[GetRnd(0,num)];   
+	document.getElementById("oknum").value = alldataarr[GetRnd(0,num)];   
 }
 function start(){   
 	clearInterval(timer);   
