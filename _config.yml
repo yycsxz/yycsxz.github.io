@@ -60,7 +60,7 @@ nav:
     icon: icon-envelope-alt
     class: none
   - text: Lab
-    url: /lab.html
+    url: /club.html
     icon: icon-heart
     class: none
   - text: GitHub
